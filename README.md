@@ -22,6 +22,14 @@ The project collects daily API-based laptop market snapshots, cleans product pri
 - Power Query
 - Windows Task Scheduler
 
+## Data Scope
+
+This project uses daily API-based Amazon laptop search-result snapshots as a market visibility sample.
+
+The pipeline is configured to collect a limited number of search-result pages per daily run to manage API credits and maintain consistent tracking. Depending on the API response volume and cleaning rules, each daily snapshot captures approximately 40–60 cleaned product records.
+
+The project does not claim to track every Amazon laptop listing or guarantee the exact same products every day. Instead, it is designed to monitor visible market patterns such as brand share, pricing tiers, specifications, ratings, reviews, and daily snapshot trends.
+
 ## Planned Additions
 
 - Final dashboard screenshots
