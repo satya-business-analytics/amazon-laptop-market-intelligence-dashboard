@@ -1,5 +1,6 @@
 pandas
 requests
 SQLAlchemy
-PyMySQL
+mysql-connector-python
 python-dotenv
+urllib3
