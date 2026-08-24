@@ -118,7 +118,68 @@ Key visualizations include:
 
 Interactive controls include:
 
+
+
 - Laptop Segment slicer
 - Price Scenario slicer
 
-The Price Scenario slicer allows users to model hypothetical percentage changes to the average price without changing the underlying data.
+The Price Scenario slicer allows users to model hypothetical percentage changes to the average price without changing the underlying data. 
+
+# DAX Measures
+
+The Power BI dashboard uses DAX measures for KPI calculations, market analysis, display formatting, conditional formatting, and what-if price scenario analysis.
+
+The measures are grouped below according to their business purpose.
+
+```markdown
+## Core KPI Measures
+
+### Avg Price KPI
+
+```DAX
+Avg price KPI =
+AVERAGE(vw_laptop_specs_dashboard[price])
+
+Calculates the average laptop price for the products currently available in the filter context
+
+### Avg Rating KPI
+
+```DAX
+Avg Rating KPI =
+AVERAGE(vw_laptop_specs_dashboard[rating])
+
+Calculates the average product rating for the currently selected products.
+
+### Product Count
+
+```DAX
+Product Count =
+DISTINCTCOUNT(vw_laptop_specs_dashboard[product_id])
+
+Calculates the number of unique products in the current filter context.
+
+### Laptop Segment Product Count
+
+```DAX
+Laptop Segment Product Count =
+COUNTROWS(vw_laptop_specs_dashboard)
+
+Calculates the number of product records available for laptop segment analysis.
+
+### Total Captured Records
+
+```DAX
+Total Captured Records =
+COUNTROWS('vw_clean_amazon')
+
+Calculates the total number of records captured across all historical market snapshots.
+Unlike Product Count, this measure counts all stored records rather than unique products.
+
+### Snapshot Days
+
+```DAX
+Snapshot Days =
+DISTINCTCOUNT('vw_clean_amazon'[load_date])
+
+Calculates the number of unique dates for which market snapshots have been captured.
+
