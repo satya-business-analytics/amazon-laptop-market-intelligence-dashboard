@@ -12,9 +12,9 @@ Provides an overview of the business problem, project objectives, data collectio
 
 Describes the Power BI dashboard structure, report pages, KPI cards, charts, filters, data model components, and what-if price scenario analysis.
 
-### [DAX Measures](dax_measures.md)
+### DAX Measures
 
-Documents the DAX measures used for:
+The Power BI documentation also includes the DAX measures used for:
 
 - KPI calculations
 - Product and market analysis
