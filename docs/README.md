@@ -34,6 +34,7 @@ Other technical components are documented in their respective repository folders
 
 ## Project Workflow
 
+```text
 OpenWeb Ninja API
         ↓
 Python Data Pipeline
