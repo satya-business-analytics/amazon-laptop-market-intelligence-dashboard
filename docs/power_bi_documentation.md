@@ -125,6 +125,43 @@ Interactive controls include:
 
 The Price Scenario slicer allows users to model hypothetical percentage changes to the average price without changing the underlying data. 
 
+# Interactive Controls
+
+The dashboard includes additional interactive controls to improve usability and provide business context.
+
+## Business Logic Dictionary
+
+Each report page includes an information control that opens a Business Logic Dictionary.
+
+The dictionary explains:
+
+- Data scope and limitations
+- KPI definitions
+- Business terminology
+- Specification and segment meanings
+- Unknown value handling
+- KPI color logic
+- Row-Level Security behavior
+
+This helps users understand how the dashboard metrics and analytical logic should be interpreted.
+
+---
+
+## Reset Filters
+
+The dashboard includes a Reset Filters control that allows users to quickly return the report page to its default analytical state.
+
+This improves usability by removing active slicer selections and restoring the intended default view.
+
+---
+
+## Row-Level Security
+
+Brand-level Row-Level Security (RLS) is configured for demonstration purposes to restrict selected users to assigned brand data.
+
+Under a brand-restricted view, Top Brand Leader may display 100% because the user can only access products within their permitted brand scope.
+
+
 # DAX Measures
 
 The Power BI dashboard uses DAX measures for KPI calculations, market analysis, display formatting, conditional formatting, and what-if price scenario analysis.
