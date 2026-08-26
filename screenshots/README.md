@@ -34,7 +34,7 @@ The page also includes:
 - Dynamic conditional formatting
 - Business Logic Dictionary
 
-![Executive Market Overview](./executive_market_overview.png)
+[Executive Market Overview](./executive_market_overview.png)
 
 ---
 
@@ -58,4 +58,4 @@ The page also includes:
 - Conditional formatting
 - Business Logic Dictionary
 
-![Core Business Analysis](./core_business_analysis.png)
+[Core Business Analysis](./core_business_analysis.png)
