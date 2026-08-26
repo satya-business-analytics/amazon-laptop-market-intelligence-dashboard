@@ -246,7 +246,7 @@ The workflow is organized across logical process lanes representing:
 - MySQL and SQL analytical processing
 - Power BI reporting
 
-![Amazon Laptop Market Intelligence BPMN Workflow](Amazon%20Laptop%20Market%20Intelligence%20Workflow.drawio.png)
+[View BPMN Workflow Diagram](Amazon%20Laptop%20Market%20Intelligence%20Workflow.drawio.png)
 
 The editable BPMN source file is also available in the project documentation folder.
 
