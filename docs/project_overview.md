@@ -223,6 +223,33 @@ Each scheduled run:
 5. Inserts new records into MySQL.
 6. Makes the updated data available for SQL analysis and Power BI reporting.
 
+
+---
+
+## BPMN Workflow
+
+The end-to-end system workflow is documented using a BPMN process diagram.
+
+The BPMN model illustrates how the scheduled automation, Python data pipeline, API processing, validation checks, MySQL storage, SQL analytical layer, and Power BI reporting interact.
+
+It also represents important decision points such as:
+
+- Whether an API response is successfully received
+- Whether valid records are available after cleaning
+- Whether new same-day records are available for insertion
+- How API and validation failures are handled
+
+The workflow is organized across logical process lanes representing:
+
+- Automation
+- Python API pipeline
+- MySQL and SQL analytical processing
+- Power BI reporting
+
+![Amazon Laptop Market Intelligence BPMN Workflow](Amazon%20Laptop%20Market%20Intelligence%20Workflow.drawio.png)
+
+The editable BPMN source file is also available in the project documentation folder.
+
 ---
 
 ## Key Business Value
