@@ -32,7 +32,7 @@ The BPMN diagram provides a visual representation of the end-to-end workflow, in
 
 The diagram is available in two formats:
 
-- [`BPMN source file`](docs/Amazon Laptop Market Intelligence Workflow.drawio)
+- [`BPMN source file`](Amazon_Laptop_Market_Intelligence_Workflow.drawio)
 - [`BPMN workflow diagram`](amazon_laptop_market_intelligence_workflow.png)
 
 The `.drawio` file can be opened and edited in draw.io, while the PNG provides a quick visual reference to the workflow.
