@@ -328,9 +328,13 @@ amazon-laptop-market-intelligence-dashboard/
 
 This project uses API-based Amazon laptop search-result snapshots as a market visibility sample.
 
+Each scheduled execution queries 3 Amazon laptop search-result pages through the OpenWeb Ninja API and typically captures approximately 40–60 cleaned product records per run after duplicate handling and data validation.
+
+The pipeline is designed to maintain consistent daily snapshots rather than represent every laptop listing available on Amazon.
+
 The project does not claim to track every Amazon laptop listing or guarantee that the exact same products appear in every snapshot.
 
-Instead, the solution is designed to monitor visible market patterns related to:
+Instead, the historical dataset is used to monitor visible market patterns related to:
 
 * Brand presence
 * Pricing
