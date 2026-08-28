@@ -134,7 +134,7 @@ The historical structure supports analysis of:
 
 ### 4. SQL Analytical Layer
 
-SQL views separate raw data storage from analytical logic.
+The project uses 16 MySQL analytical views to transform historical product snapshots into business-ready datasets for Power BI reporting and market analysis.
 
 The analytical layer includes views for:
 
@@ -142,13 +142,14 @@ The analytical layer includes views for:
 * Brand summaries
 * Market share
 * Price tiers
+* Brand and price-tier analysis
 * Value scoring
-* Social proof scoring
+* Social proof analysis
 * Latest market snapshots
 * Product price history
 * Review growth
 * Rating trends
-* KPI summaries
+* KPI summaries and period-over-period KPI changes
 * Laptop specification extraction
 * Dashboard-ready analytical data
 
