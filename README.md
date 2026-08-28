@@ -191,7 +191,7 @@ These derived attributes allow the dashboard to analyze the laptop market beyond
 
 ## Power BI Dashboard
 
-The Power BI dashboard contains two analytical pages.
+The Power BI dashboard contains two analytical pages and uses 23 DAX measures to support KPI calculations, market analysis, dynamic presentation, conditional indicators, and What-If scenario analysis.
 
 ### Executive Market Overview
 
