@@ -17,7 +17,7 @@ This prevents duplicate records for the same product on the same day while allow
 
 ### `amazon_views.sql`
 
-Contains analytical SQL views built on top of the raw snapshot table.
+Contains 16 analytical SQL views built on top of the raw snapshot table.
 
 Key views include:
 
