@@ -19,6 +19,19 @@ This prevents duplicate records for the same product on the same day while allow
 
 Contains 16 analytical SQL views built on top of the raw snapshot table.
 
+The views cover:
+
+- Data cleaning and preparation
+- Brand and market-share analysis
+- Price-tier and pricing analysis
+- Product value and social-proof analysis
+- Latest-snapshot analysis
+- Historical price tracking
+- Review growth and rating trends
+- KPI summaries and period-over-period changes
+- Laptop specification extraction
+- Dashboard-ready analytical datasets
+
 Key views include:
 
 - `vw_clean_amazon` — cleaned base dataset
